@@ -1,0 +1,28 @@
+/* components/tabbat/tabbar.wxss */
+.tabBar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 48px;
+  background: white;
+  display: flex;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.tabButton {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tabButton cover-image {
+  width: 27px;
+  height: 27px;
+}
+
+.tabButton cover-view {
+  font-size: 10px;
+}

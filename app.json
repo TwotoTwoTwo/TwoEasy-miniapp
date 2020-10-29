@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/tabPages/home/home",
+    "pages/tabPages/person/person",
+    "pages/tabPages/chat/chat",
+    "pages/tabPages/question/question"
+    
+  ],
+  "tabBar": {
+    "custom": true,
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/tabPages/home/home"
+      },
+      {
+        "pagePath": "pages/tabPages/question/question"
+      },
+      {
+        "pagePath": "pages/tabPages/chat/chat"
+      },
+      {
+        "pagePath": "pages/tabPages/person/person"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
